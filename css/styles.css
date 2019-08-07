@@ -321,3 +321,30 @@ body {
   line-height: 1.6;
   color: #333;
   min-height: 100%; }
+
+h1 {
+  color: #20bec6;
+  font-size: 6rem;
+  margin-bottom: 50px;
+}
+
+form {
+  margin-bottom: 50px;
+  display: flex;
+}
+
+input {
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid #20bec6;
+  margin-right: 10px;
+  outline: none;
+}
+
+.todos__wrap {
+  margin-bottom: 50px;
+}
+
+li {
+  list-style: none;
+}

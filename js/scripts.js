@@ -51,14 +51,14 @@
 						<span>${text}</span>
 					</label>
 					<input type="text" value="${text}" hidden>
-					<button class="editBtn">Edit</button>
-					<button class="deleteBtn">Delete</button>
-					<button class="saveBtn" hidden>Save</button>
-					<button class="cancelBtn" hidden>Cancel</button>
+					<button class="editBtn btn btn-success">Edit</button>
+					<button class="deleteBtn btn btn-danger">Delete</button>
+					<button class="saveBtn btn btn-warning" hidden>Save</button>
+					<button class="cancelBtn btn btn-secondary" hidden>Cancel</button>
 				`;												// готовим html для элемента списка todos
 
 			if (targetList == 'completed') {
-				html = `${text} <button class="deleteBtn">Delete</button>`; // готовим html для элемента списка completed
+				html = `${text} <button class="deleteBtn btn btn-danger">Delete</button>`; // готовим html для элемента списка completed
 			}
 		
 
